@@ -20,19 +20,10 @@
 
 ## Οι εικόνες της βιβλιοθήκης
 
-Τα αυτοκόλλητα-εικόνες βρίσκονται στο αρχείο `stickers-library.js` του Δημιουργού Comics. Η εφαρμογή το αναζητά:
+Τα αυτοκόλλητα-εικόνες βρίσκονται στο αρχείο `stickers-library.js`, το ίδιο που χρησιμοποιεί και ο [Δημιουργός Comics](https://github.com/skiadelli-tech). Η εφαρμογή το βρίσκει σε μία από αυτές τις θέσεις:
 
-1. στον διπλανό φάκελο `comics tool` (`../comics tool/stickers-library.js`)
-2. στον ίδιο φάκελο με την εφαρμογή
-
-```
-final/
-├── animation tool/
-│   └── AnimationCreator_GR_v1.html
-└── comics tool/
-    ├── ComicCreator_GR_v5.html
-    └── stickers-library.js
-```
+1. στον ίδιο φάκελο με την εφαρμογή, όπως σε αυτό το repository
+2. στον διπλανό φάκελο `comics tool` (`../comics tool/stickers-library.js`), αν οι δύο εφαρμογές βρίσκονται σε φακέλους δίπλα δίπλα
 
 Αν η εφαρμογή δεν βρει το αρχείο, λείπουν μόνο αυτές οι εικόνες. Τα emoji και όλα τα υπόλοιπα δουλεύουν κανονικά.
 
